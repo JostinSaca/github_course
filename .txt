@@ -19,3 +19,15 @@ Si queremos un rama en particular despues del comando git fetch origin especific
 git pull origin: fusiona la rama traida del repositorio remoto a la local
 
 gir pull origin dev: Especifica la rama
+
+
+
+git checkout: git checkout -b newBranchName
+git commit -m "Add a helpful commit message": Permite hacer una confirmacion, una confirmacion es un cambio que hacemos a uno o varios archivos de 
+la rama 
+los hash son los identificadores de los commit 
+Sin seguimiento: Estado inicial de un archivo cuando aún no forma parte del repositorio de Git. Git desconoce su existencia.
+Seguimiento: Un archivo con seguimiento es aquel que Git está supervisando activamente. Puede estar en uno de los siguientes subestados:
+
+git branch -d nombre de la rama: elimina la rama cuando hayamos combinado los cambios con la rama principal usando el merge
+git branch -m nombre antiguo de la rama nombre nuevo de la rama: para cambiar el nombre de la rama
