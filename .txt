@@ -1,0 +1,21 @@
+git merge: fusionar los cambios que hicimos en una rama externa a la main de esta forma git merge rama secundaria y rama principal [git merge chatbot main]
+
+git clone URL : clona un repositorio de otra persona que nos proporciono el URL
+
+git remote: confirmamos que clonamos el repositorio
+
+git remote -v : da el repositorio clonado y sus URL
+
+
+
+
+
+git remote add name URL: cambiar el nombre del repositorio remoto ya que git hub lo pone automaticamente como origin y el URL para especificar la direccion url que vamos a utilizar para abrir mas facil
+
+git fetch origin(el nombre del repositorio remoto): sincronizar los archivos de un repositorio remoto con el local , obtenemos las ramas de los repositorio
+
+Si queremos un rama en particular despues del comando git fetch origin especificamos el nombre
+
+git pull origin: fusiona la rama traida del repositorio remoto a la local
+
+gir pull origin dev: Especifica la rama
